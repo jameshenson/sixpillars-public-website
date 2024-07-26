@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sixpillarsconsulting-dev-274b0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::034733001912:role/amplify-sixpillarsconsulting-dev-274b0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::034733001912:role/amplify-sixpillarsconsulting-dev-274b0-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sixpillarsconsulting-dev-274b0-deployment",
+      "UnauthRoleName": "amplify-sixpillarsconsulting-dev-274b0-unauthRole",
+      "StackName": "amplify-sixpillarsconsulting-dev-274b0",
+      "StackId": "arn:aws:cloudformation:us-east-1:034733001912:stack/amplify-sixpillarsconsulting-dev-274b0/32f57210-4abf-11ef-b3e5-0afffd189055",
+      "AmplifyAppId": "d1s5l8g3mdr0wq"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1s5l8g3mdr0wq",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "sixpillarsconsulting0393ef08": {}
+      }
+    }
+  }
+}
