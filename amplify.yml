@@ -16,7 +16,7 @@ frontend:
     build:
       commands:
         - npm install
-        - ng build --prod --output-path=dist/sixpillarsconsulting
+        - npm build --prod --output-path=dist/sixpillarsconsulting
         
   artifacts:
     baseDirectory: ./dist/sixpillarsconsulting
