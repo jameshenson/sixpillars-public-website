@@ -16,9 +16,10 @@ frontend:
     build:
       commands:
         - npm install
-        - npm run build --prod
+        - ng build --prod --output-path=dist/sixpillarsconsulting
+        
   artifacts:
-    baseDirectory: ./dist/sixpillarsconsulting/browser
+    baseDirectory: ./dist/sixpillarsconsulting
     files:
       - '**/*'
   cache:
