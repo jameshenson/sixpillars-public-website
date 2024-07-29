@@ -18,7 +18,7 @@ frontend:
         - npm install
         - npm run build --prod
   artifacts:
-    baseDirectory: dist/sixpillarsconsulting
+    baseDirectory: ./dist/sixpillarsconsulting
     files:
       - '**/*'
   cache:
