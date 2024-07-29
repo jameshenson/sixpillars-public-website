@@ -1,10 +1,17 @@
 
 version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - echo "Backend build commands"
 frontend:
   phases:
     preBuild:
       commands:
-        - nvm install 18.19.0
+        - nvm install 22.5.1
+        - nvm use 22.5.1
+        - npm install -g npm@10.8.2
         - npm install
     build:
       commands:
